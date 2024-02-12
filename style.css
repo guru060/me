@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&display=swap');
+h1{
+    font-family: 'Share Tech Mono', monospace;
+    color: #ABCB1A;
+    font-size: 20px;
+}
+
+h2{
+  font-size: larger;
+}
+h3{
+  font-size: medium;
+  color: #8572B2;
+}
+button{
+    color: rgb(0, 0, 0);
+    border-color: black;
+    background-color: #ffff;
+    font-family: 'Share Tech Mono', monospace;
+}
+div {
+    background-color:#222445;
+    background: fixed;
+    width: auto;;
+    border: 2px solid #575656;
+    padding: 1px;
+    margin: 20px;
+    color: #0e6b0e;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: large;
+  }
+  body{
+    background-color: #222445 ;
+    background-image: url("images.jpg");
+    opacity: 1.0;
+  }
+  ul{
+    color: #ABCB1A;
+    list-style-type: none;
+}
+a{
+    color: #575656;
+    text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+    color: #0e6b0e;
+  }
+
+  ol{
+color:#0e6b0e;
+list-style-type: none;
+font-size: large;
+  }
+.terminux{
+font-family: 'Share tech mono', sans-serif;
+font-size: x-large;
+padding:20px;
+width:auto;
+height:auto;
+}
+    /* Define scrollbar styles */
+    .custom-scrollbar {
+      width: auto;
+      overflow-y: auto; /* Enable vertical scrollbar */
+      border: 2px solid #575656;
+      padding: 20px;
+      font-family: 'Share tech mono', sans-serif;
+      font-size: x-large;
+      justify-content: center;
+    }
+
+    /* Customize scrollbar */
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 5px; /* width of the scrollbar */
+    }
+
+    /* Track */
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #000000; /* color of the track */
+    }
+
+    /* Handle */
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #0e6b0e; /* color of the scrollbar handle */
+      border-radius: 5px; /* roundness of the handle */
+    }
+
+    /* Handle on hover */
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+
+        /* Styles for the text container */
+        .ter {
+          overflow: hidden;
+          border-right: .15em solid orange; /* Cursor style */
+          white-space: nowrap; /* Make sure text doesn't wrap */
+          font-family: monospace; /* Use a monospace font for a terminal-like effect */
+          font-size: 1.5em;
+        }
+        
+        /* Animation for the typing effect */
+        @keyframes typing {
+          from { width: 0 }
+          to { width: 100% }
+        }
+        
+        /* Apply the animation to the text */
+        .typing-text {
+          display: inline-block;
+          animation: typing 5s steps(40, end); /* Adjust the duration and steps as needed */
+          overflow: hidden;
+          white-space: nowrap;
+          font-size: larger;
+        }
+
+/* Style the fly-in text */
+.fly-in-text {
+  opacity: 0; /* Initially hidden */
+  animation: flyInAnimation 1.5s forwards; /* Apply animation */
+}
+
+.fly-in-content {
+  opacity: 0; /* Initially hidden */
+  animation: flyInAnimation 1.5s forwards; /* Apply animation */
+}
+
+/* Define the keyframes for the fly-in animation */
+@keyframes flyInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Styles for the typing text */
+.typing-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 5s steps(40, end); /* Adjust the duration and steps as needed */
+}
+
+/* Keyframes for the typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
